@@ -15,14 +15,43 @@ sudo apt install fortune-mod cowsay -y
 <a href="https://ibb.co/G3TvXzK"><img src="https://i.ibb.co/G3TvXzK/Screenshot-2024-05-31-173743.png" alt="Screenshot-2024-05-31-173743" border="0"></a>
 
 # Problem Statement
-Deploy the wisecow application as a k8s app
+Containerisation and Deployment of Wisecow Application on Kubernetes
 
 ## Requirement
-1. Create Dockerfile for the image and corresponding k8s manifest to deploy in k8s env. The wisecow service should be exposed as k8s service.
-2. Github action for creating new image when changes are made to this repo
-3. [Challenge goal]: Enable secure TLS communication for the wisecow app.
+Dockerization:
+● Develop a Dockerfile for creating a container image of the Wisecow
+application.
+Kubernetes Deployment:
+● Craft Kubernetes manifest files for deploying the Wisecow application
+in a Kubernetes environment.
+● The Wisecow app must be exposed as a Kubernetes service for
+accessibility.
+Continuous Integration and Deployment (CI/CD):
+● Implement a GitHub Actions workflow for:
+● Automating the build and push of the Docker image to a
+container registry whenever changes are committed to the
+repository.
+● Continuous Deployment [Challenge Goal]: Automatically
+deploy the updated application to the Kubernetes environment
+following successful image builds.
+TLS Implementation [Challenge Goal]:
+● Ensure that the Wisecow application supports secure TLS
+communication.
+Expected Artifacts:
+● A private GitHub repository containing:
+● The Wisecow application source code.
+● The Dockerfile for the application.
 
-## Expected Artifacts
-1. Github repo containing the app with corresponding dockerfile, k8s manifest, any other artifacts needed.
-2. Github repo with corresponding github action.
-3. Github repo should be kept private and the access should be enabled for following github IDs: nyrahul, SujithKasireddy
+● Kubernetes manifest files for deployment.
+● The CI/CD pipeline configuration.
+● A GitHub Actions workflow file for facilitating Continuous Build
+and Deployment (CI/CD)
+
+## Acces Control
+● The GitHub repository should be set to public.
+
+# End Goal
+End Goal: The successful containerisation and deployment of the Wisecow
+application to the Kubernetes environment with an automated CI/CD pipeline and
+secured with TLS communication.
+
