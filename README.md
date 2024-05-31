@@ -13,6 +13,7 @@ sudo apt install fortune-mod cowsay -y
 
 ## What to expect?
 <a href="https://ibb.co/G3TvXzK"><img src="https://i.ibb.co/G3TvXzK/Screenshot-2024-05-31-173743.png" alt="Screenshot-2024-05-31-173743" border="0"></a>
+<a href="https://ibb.co/9hzCHDV"><img src="https://i.ibb.co/9hzCHDV/Screenshot-2024-05-31-175425.png" alt="Screenshot-2024-05-31-175425" border="0"></a>
 
 # Problem Statement
 Containerisation and Deployment of Wisecow Application on Kubernetes
