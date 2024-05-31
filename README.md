@@ -12,7 +12,7 @@ sudo apt install fortune-mod cowsay -y
 2. Point the browser to server port (default 4499)
 
 ## What to expect?
-https://ibb.co/G3TvXzK
+<a href="https://ibb.co/G3TvXzK"><img src="https://i.ibb.co/G3TvXzK/Screenshot-2024-05-31-173743.png" alt="Screenshot-2024-05-31-173743" border="0"></a>
 
 # Problem Statement
 Deploy the wisecow application as a k8s app
